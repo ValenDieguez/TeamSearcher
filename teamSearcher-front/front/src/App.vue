@@ -16,8 +16,8 @@
         />
 
         <q-toolbar-title>
-          Quasar App
-          <div slot="subtitle">Running on Quasar v{{ $q.version }}</div>
+          Team Searcher
+          <div slot="subtitle">Para jugadores exigentes</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-layout-header>
@@ -32,18 +32,18 @@
         inset-delimiter
       >
         <q-list no-border link inset-delimiter>
-          <q-list-header>Essential Links</q-list-header>
+          <q-list-header>Team Searcher</q-list-header>
           <q-item @click.native="openURL('http://quasar-framework.org')">
             <q-item-side icon="school" />
-            <q-item-main label="Docs" sublabel="quasar-framework.org"></q-item-main>
+            <q-item-main label="Equipos" sublabel="ver y organizar tus equipos"></q-item-main>
           </q-item>
           <q-item @click.native="openURL('https://discord.gg/5TDhbDg')">
             <q-item-side icon="chat" />
-            <q-item-main label="Discord Chat Channel" sublabel="https://discord.gg/5TDhbDg"></q-item-main>
+            <q-item-main label="Partidos" sublabel="Historial de partidos"></q-item-main>
           </q-item>
           <q-item @click.native="openURL('http://forum.quasar-framework.org')">
             <q-item-side icon="forum" />
-            <q-item-main label="Forum" sublabel="forum.quasar-framework.org"></q-item-main>
+            <q-item-main label="buscador de partidos" sublabel="buscador de partidos"></q-item-main>
           </q-item>
           <q-item @click.native="openURL('https://twitter.com/quasarframework')">
             <q-item-side icon="rss feed" />
