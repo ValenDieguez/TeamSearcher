@@ -54,19 +54,19 @@
     </q-layout-drawer>
 
     <q-page-container>
-      <HelloWorld />
+      <Login/>
     </q-page-container>
   </q-layout>
 </template>
 
 <script>
 import { openURL } from 'quasar'
-import HelloWorld from './components/HelloWorld.vue'
+import Login from './components/Login.vue'
 
 export default {
   name: 'LayoutDefault',
   components: {
-    HelloWorld
+    Login
   },
   data () {
     return {

@@ -29,7 +29,7 @@
     import QCard from "quasar-framework/src/components/card/QCard";
 
     export default {
-        name: 'HelloWorld',
+        name: 'Dashboard',
         components: {QCard, QList}
     }
 </script>
